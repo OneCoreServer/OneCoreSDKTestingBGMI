@@ -1,0 +1,16 @@
+{
+  "version": "4.3.0",
+  "configs": [
+    {
+      "packageName": "com.pubg.imobile",
+      "entryPoint": "com.epicgames.ue4.GameActivity",
+      "altEntryPoint": "com.epicgames.ue4.SplashActivity",
+      "cloneMode": "FULL_SANDBOX",
+      "hooks": {
+        "antiCheatBypass": true,
+        "pathNormalization": true,
+        "memoryProtection": true
+      }
+    }
+  ]
+}
